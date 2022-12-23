@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --backgound-color: #d9dcd6;
+    --span-color: #d9dcd6;
+    --primary-color: #2a607c;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    background-color: var(--primary-color);
+}
+
+.logo {
+    color: #ffff;
+    font-size: 3rem;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+span {
+    color: var(--span-color);
+}
+
+.nav_menu {
+    width: 40rem;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero_img {
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    margin-bottom: 1.4rem;
+}  
+
+img {
+   width: 300px;
+}
+
+.product_cards {
+    width: 70%;
+    background-color: var(--primary-color);
+}
